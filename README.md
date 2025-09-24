@@ -18,12 +18,6 @@ This project provides a Bash script `server-stats.sh` that analyzes basic server
 
 ---
 
-## Requirements
-- Linux system with `/proc` mounted
-- Standard tools: `awk`, `sed`, `grep`, `df`, `ps`, `who`, `uptime`, `head`, `sort`, `cut`
-- Optional: `lastb` (from `util-linux`) for failed login attempts
-
----
 
 ## Installation
 1. Clone or copy the script file to your server.
@@ -102,13 +96,9 @@ Failed login attempts (since last rotate): 0
 
 ---
 
-## Stretch Goals
-- Add JSON output option for monitoring integration.
-- Collect network stats from `/proc/net/dev`.
-- Add temperature sensors.
-- Create a `systemd` timer to run periodically and log results.
-
----
-
 ## License
 This project is for learning purposes and provided under the MIT License.
+
+
+## Project Detail 
+https://roadmap.sh/projects/server-stats
